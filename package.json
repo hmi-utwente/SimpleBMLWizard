@@ -1,0 +1,30 @@
+{
+  "name": "wizardapplication",
+  "version": "1.0.0",
+  "description": "amq middleware wizard app",
+  "main": "wizard.js",
+  "dependencies": {
+    "debug": "^2.6.1",
+    "engine.io": "^1.6.9",
+    "express": "^4.13.4",
+    "is-typedarray": "^1.0.0",
+    "ms": "^0.7.2",
+    "nan": "^2.5.1",
+    "node-static": "^0.7.7",
+    "open": "^0.0.5",
+    "serve-static": "^1.10.2",
+    "stomp-client": "^0.9.0",
+    "typedarray-to-buffer": "^3.1.2",
+    "ultron": "^1.1.0",
+    "websocket": "^1.0.24",
+    "webstomp-client": "^1.0.3",
+    "ws": "^2.1.0",
+    "yaeti": "^0.0.6"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT"
+}

@@ -1,0 +1,11 @@
+{
+  "defaultCharacterId": "COUCH_M_1",
+  "middleware": { 
+    "host": "127.0.0.1",
+    "port": 61613,
+    "user": "admin",
+    "pass": "admin",
+    "rTopic": "/topic/WIZARD/FEEDBACK",
+    "wTopic": "/topic/COUCH/BML/REQUEST/ASAP" 
+  }
+}
