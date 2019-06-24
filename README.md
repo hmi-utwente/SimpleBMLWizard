@@ -14,6 +14,7 @@ Simple web panel with customizable layout, forwarding speech messages to middlew
 
 ## Run
 * Use the `wizard.cmd` to run the wizard
+* You can go to http://localhost:5601/ for the wizard interface
 * In `/dialogs/default.json`, you can find all the dialog options
 * Make sure that when ASAP is running, it listens to the correct topic of the Wizard.
 * Have a Unity agent that responds to the correct topic
