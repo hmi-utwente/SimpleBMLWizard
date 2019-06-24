@@ -84,7 +84,7 @@ server.on('connection', function(socket) {
     socket.on('message', function(msg) {
         var parsed = JSON.parse(msg);
         if (parsed.type == "bmlsay") {
-          mw_client.publish(mw.wTopic, createBMLMessage(parsed));
+          mw_client.publish(mw.wTopic, createBMLMessage(parsed), { 'suppress-content-length':true, 'content-type': 'text/plain'});
         } else if (parsed.type == "refresh") {
           var res = {
             type:"refresh",
